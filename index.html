@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="resources/css/reset.css" type="text/css">
     <link rel="stylesheet" href="resources/css/style.css" type="text/css">
     <title>Secret Agent Supply Inc.</title>
@@ -9,67 +10,87 @@
   <body>
 
     <!-- Logo Header -->
-    <header>
-      <div class="logo">
-        <img src="resources/images/logo.png">
-        <span>Secret agent supply inc.</span>
+    <div class="company">
+      <div class="container">
+          <img src="resources/images/logo.png">
+          <span>Secret agent supply inc.</span>
       </div>
-    </header>
+    </div>
 
     <!-- Top Banner -->
     <div class="banner">
-      <div class="newarrival">
-        <h4>New Arrival</h4>
-        <h1>Sports Bikes and Motorcycles</h1>
+      <div class="container">
+        <div class="newarrival">
+          <h4>New Arrival</h4>
+          <h1>Sports Bikes and Motorcycles</h1>
+        </div>
       </div>
     </div>
 
     <!-- Menu -->
-    <div class="menu">
-      <span><a href="#">Eyewear</a></span>
-      <span><a href="#">Apparel</a></span>
-      <span><a href="#">Gadgets</a></span>
-      <span><a href="#">Vehicles</a></span>
-      <span><a href="#">Classes</a></span>
-      <span><a href="#">Contact</a></span>
-    </div>
+    <nav>
+      <ul class="container">
+        <li>Eyewear</li>
+        <li>Apparel</li>
+        <li>Gadgets</li>
+        <li>Classes</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+
+    <nav class="mobile-container">
+      <ul>
+        <li>Menu</li>
+      </ul>
+    </nav>
 
     <!-- Collection -->
-    <div class="container">
-      <div class="products">
+      <div class="container">
+        <div class="products">
         <!-- Exploding Pen -->
         <div class="product">
+          <div class="product-image">
           <img src="resources/images/pen.png">
-          <span>Exploding Pen</span>
+          </div>
+          <span class="desc">Exploding Pen</span>
         </div>
         <!-- Cellular Watch -->
-        <div class="product">
+        <div class="product watch">
+          <div class="product-image">
           <img src="resources/images/watch.png">
-          <span>Cellular Watch</span>
+          </div>
+          <span class="desc">Cellular Watch</span>
         </div>
         <!-- Thermal Glasses -->
-        <div class="product">
+        <div class="product glasses">
+          <div class="product-image">
           <img src="resources/images/glasses.png">
-          <span>Thermal Glasses</span>
+          </div>
+          <span class="desc">Thermal Glasses</span>
         </div>
       </div>
     </div>
 
-    <!-- Location -->
-    <div class="location">
-      <span>Location</span>
-      <span>-47.346436, 84.32354</span>
-    </div>
-
-    <!-- Hours -->
-    <div class="hours">
-      <span>Hours</span>
-      <span>0800 - 1800</span>
+    <!-- Business Info -->
+      <div class="container">
+      <div class="business-info">
+        <div class="info">
+          <span class="title">Location</span>
+          <span class="details">-47.346436, 84.32354</span>
+        </div>
+        <div class="info">
+          <span class="title">Hours</span>
+          <span class="details">0800 - 1800</span>
+        </div>
+      </div>
     </div>
 
     <!-- Footer -->
     <footer>
-      <span>Copyright Secret Agent Supply Inc.</span>
+      <div class="container">
+        Copyright Secret Agent Supply Inc.
+      </div>
+
     </footer>
 
   </body>
