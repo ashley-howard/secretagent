@@ -181,6 +181,7 @@ footer {
 
   .newarrival {
     top: 8rem;
+    width: auto;
   }
 
   .newarrival h4 {
